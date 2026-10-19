@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perguntas</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+    }
+    h1 {
+      color: #24292f;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 8px;
+    }
+    h2 {
+      color: #0969da;
+      font-size: 1.15em;
+      margin-top: 32px;
+    }
+    .sublinhado {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Perguntas e Respostas sobre Git</h1>
+  <p>Integração de Sistemas &ndash; Universidade Aberta</p>
+
+  <!-- Pergunta 1 -->
+  <h2>1 &ndash; O que são operações de &ldquo;Commit&rdquo;, &ldquo;Push&rdquo; e &ldquo;Pop&rdquo; efetuadas num repositório?</h2>
+  <ul>
+    <li><strong>Commit</strong> guarda <em>localmente</em> uma &ldquo;imagem&rdquo; das alterações feitas aos ficheiros.</li>
+    <li><strong>Push</strong> envia commits para o <span class="sublinhado">repositório remoto</span>.</li>
+    <li><strong>Pop</strong> pega nos ficheiros guardados e aplica as modificações na <em>branch</em> em uso.</li>
+  </ul>
+
+  <!-- Pergunta 2 -->
+  <h2>2 &ndash; Quais são as vantagens de usar Branches num repositório Git?</h2>
+  <p>Os <strong>branches</strong> permitem desenvolver funcionalidades ou correções de forma <em>isolada</em>, <u>sem afetar o ramo principal</u>.</p>
+
+  <!-- Pergunta 3 -->
+  <h2>3 &ndash; Nos Merges de conteúdos resultantes de um &ldquo;Pop&rdquo; podem resultar conflitos. Em que consistem e como podem ser resolvidos esses conflitos?</h2>
+  <p>Um <strong>conflito</strong> acontece quando a <u>mesma parte de um ficheiro</u> foi alterada de forma diferente nas duas versões e o Git não sabe qual manter. O Git marca as zonas em conflito no ficheiro.</p>
+  <p>Para resolver:</p>
+  <ol>
+    <li>Edita-se o ficheiro;</li>
+    <li>Escolhe-se o <em>conteúdo final</em>.</li>
+  </ol>
+
+  <!-- Pergunta 4 -->
+  <h2>4 &ndash; &ldquo;Clone&rdquo; e &ldquo;Fork&rdquo; são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?</h2>
+  <ul>
+    <li><strong>Clone</strong> é um comando que copia um repositório <em>localmente</em> no computador.</li>
+    <li><strong>Fork</strong> permite criar uma cópia para a <span class="sublinhado">nossa conta</span>, no caso do GitHub.</li>
+  </ul>
+
+  <footer>
+    <p>Artur Costa &ndash; 2026</p>
+  </footer>
+
+</body>
+</html>
