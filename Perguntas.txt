@@ -8,6 +8,7 @@
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
+    Um conflito acontece quando a mesma parte de um ficheiro foi alterada de forma diferente nas duas versões e o Git não sabe qual manter. O Git marca as zonas em conflito no ficheiro. Para resolver, edita-se o ficheiro, escolhe-se o conteúdo final.
 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
